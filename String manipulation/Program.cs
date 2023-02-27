@@ -1,9 +1,24 @@
 ﻿
 
+
 public class program
 {
-    public static void Main()
+
+    public static void Main()                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
     {
-        Console.WriteLine("please enter any string");
+        String Firstname, MiddleName, LastName, FullName;
+
+        Console.WriteLine("please enter FirstName");
+        Firstname= Console.ReadLine();
+
+        Console.WriteLine("please enter MiddleName");
+        MiddleName= Console.ReadLine();
+
+        Console.WriteLine("please enter LastName");
+        LastName= Console.ReadLine();
+
+        FullName= Firstname+" " +MiddleName +" "+LastName;
+
+        Console.WriteLine(FullName);
     }
 }
